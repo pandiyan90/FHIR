@@ -5,7 +5,7 @@
 
     <artifactId>fhir-bucket</artifactId>
     <parent>
-        <groupId>org.linuxforhealth.fhir</groupId>
+        <groupId>net.sovrinhealth.fhir</groupId>
         <artifactId>fhir-parent</artifactId>
         <version>5.0.0-SNAPSHOT</version>
         <relativePath>../fhir-parent</relativePath>
@@ -65,6 +65,7 @@
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
+            <version>7.0.0</version>
             <scope>test</scope>
         </dependency>
         <dependency>
@@ -91,7 +92,7 @@
                             <transformers>
                                 <transformer
                                     implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <mainClass>org.linuxforhealth.fhir.bucket.app.Main</mainClass>
+                                    <mainClass>net.sovrinhealth.fhir.bucket.app.Main</mainClass>
                                 </transformer>
                             </transformers>
                             <filters>

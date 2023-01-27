@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.linuxforhealth.fhir</groupId>
+        <groupId>net.sovrinhealth.fhir</groupId>
         <artifactId>fhir-parent</artifactId>
         <version>5.0.0-SNAPSHOT</version>
         <relativePath>../fhir-parent</relativePath>
@@ -31,7 +31,7 @@
                     <artifactId>slf4j-jdk14</artifactId>
                 </exclusion>
                 <exclusion>
-                    <groupId>org.linuxforhealth.fhir</groupId>
+                    <groupId>net.sovrinhealth.fhir</groupId>
                     <artifactId>fhir-term-graph</artifactId>
                 </exclusion>
             </exclusions>
@@ -142,6 +142,7 @@
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
+            <version>7.0.0</version>
             <scope>test</scope>
         </dependency>
         <dependency>
@@ -203,7 +204,7 @@
                     <forkCount>1C</forkCount>
                     <argLine>-Xms2G -Xmx4G</argLine>
                     <systemPropertyVariables>
-                        <org.linuxforhealth.fhir.server.test.R4ExampleServerTest.index>${fhir-server-test.index}</org.linuxforhealth.fhir.server.test.R4ExampleServerTest.index>
+                        <net.sovrinhealth.fhir.server.test.R4ExampleServerTest.index>${fhir-server-test.index}</net.sovrinhealth.fhir.server.test.R4ExampleServerTest.index>
                     </systemPropertyVariables>
                 </configuration>
             </plugin>

@@ -6,7 +6,7 @@
     <artifactId>fhir-operation-convert</artifactId>
 
     <parent>
-        <groupId>org.linuxforhealth.fhir</groupId>
+        <groupId>net.sovrinhealth.fhir</groupId>
         <artifactId>fhir-parent</artifactId>
         <version>5.0.0-SNAPSHOT</version>
         <relativePath>../../fhir-parent</relativePath>
@@ -34,6 +34,7 @@
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
+            <version>7.0.0</version>
             <scope>test</scope>
         </dependency>
     </dependencies>

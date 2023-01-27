@@ -1,1 +1,1 @@
-org.linuxforhealth.fhir.search.test.SampleRegistryResourceProvider
+net.sovrinhealth.fhir.search.test.SampleRegistryResourceProvider

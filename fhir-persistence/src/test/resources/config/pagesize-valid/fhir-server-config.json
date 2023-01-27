@@ -4,7 +4,7 @@
 		  "defaultPageSize": 500
 		},
 		"persistence": {
-			"factoryClassname": "org.linuxforhealth.fhir.persistence.test.MockPersistenceFactory"
+			"factoryClassname": "net.sovrinhealth.fhir.persistence.test.MockPersistenceFactory"
 		}
 	}
 }

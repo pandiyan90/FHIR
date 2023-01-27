@@ -1,2 +1,2 @@
-org.linuxforhealth.fhir.operation.reindex.ReindexOperation
-org.linuxforhealth.fhir.operation.reindex.RetrieveIndexOperation
+net.sovrinhealth.fhir.operation.reindex.ReindexOperation
+net.sovrinhealth.fhir.operation.reindex.RetrieveIndexOperation

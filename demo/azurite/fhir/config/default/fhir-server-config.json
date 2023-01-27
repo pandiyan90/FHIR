@@ -279,12 +279,12 @@
       }
     },
     "audit": {
-      "serviceClassName": "org.linuxforhealth.fhir.audit.impl.NopService",
+      "serviceClassName": "net.sovrinhealth.fhir.audit.impl.NopService",
       "serviceProperties": {
       }
     },
     "persistence": {
-      "factoryClassname": "org.linuxforhealth.fhir.persistence.blob.FHIRPersistenceJDBCBlobFactory",
+      "factoryClassname": "net.sovrinhealth.fhir.persistence.blob.FHIRPersistenceJDBCBlobFactory",
       "datasources": {
         "default": {
           "type": "postgresql",

@@ -39,7 +39,7 @@ helm upgrade --install --render-subchart-notes fhir-server linuxforhealth/fhir-s
 See https://artifacthub.io/packages/helm/linuxforhealth/fhir-server for more information.
 
 ### Building with the LinuxForHealth FHIR Modules
-Each of the LinuxForHealth FHIR Server modules are published to Maven Central under [org.linuxforhealth.fhir](https://repo1.maven.org/maven2/org/linuxforhealth/fhir/).
+Each of the LinuxForHealth FHIR Server modules are published to Maven Central under [net.sovrinhealth.fhir](https://repo1.maven.org/maven2/net/sovrinhealth/fhir/).
 
 To use the artifacts from a Maven project, declare the dependencies. For example, to use our visitable, thread-safe FHIR object model (including our high-performance parsers and generators), declare a dependency on the `fhir-model` module:
 
@@ -47,7 +47,7 @@ To use the artifacts from a Maven project, declare the dependencies. For example
 ...
 <dependencies>
     <dependency>
-      <groupId>org.linuxforhealth.fhir</groupId>
+      <groupId>net.sovrinhealth.fhir</groupId>
       <artifactId>fhir-model</artifactId>
       <version>${fhir.version}</version>
     </dependency>
